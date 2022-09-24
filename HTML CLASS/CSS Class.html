@@ -4,8 +4,9 @@
         header{background-color: rgb(136, 136, 248); height: 200px; padding-top: 110px;}
         main{background-color: burlywood; padding-block-start: 100px;}
         footer{background-color: pink; height: 50px; padding-top: 30px; text-align: center; font-size: large;}
-        form{ font-size: 100%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: blacks;}
-
+        form{ font-size: 100%; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: blacks; margin-bottom: -20px;}
+        .br{height: 100px; margin-bottom: 50px;}
+        .botton{text-align: center;}
     </style>
     <head>
         <title>Hello Everyone</title>
@@ -21,7 +22,7 @@
                 <label>First Name</label>
                 <input type="text" name="first-name" placeholder="Enter First Name">
             </div> 
-            <br>
+            <br class="br">
             <div>               
                 <label>Last Name</label>
                 <input type="text" name="Last-name" placeholder="Enter Last Name>
@@ -31,12 +32,17 @@
                 <label>Email</label>
                 <input type="email" name="email">
             </div>
-            <br>
+            <br class="br">
+            <div>               
+                <label>Email Address</label>
+                <input type="Address" name="Address">
+            </div>
+            <br class="br">
             <div>               
                 <label>Message</label>
                 <textarea name="Message"></textarea>
             </div>
-            <br>
+            <br class="br">
             <div>               
                 <label>gender</label>
                 <select name="gender">
@@ -45,29 +51,27 @@
                     <option value="custom">custom</option>
                 </select>
             </div>
-            <br>
+            <br class="br">
             <div>               
                 <label>Age</label>
                 <input type="number" name="age" value="30">
             </div>
-            <br>
+            <br class="br">
             <div>               
                 <label>Date of birth</label>
                 <input type="date" name="birthday">
             </div>
-            <br>
+            <br class="br">
             <div>
             <!--botton -->
-            <botton><a href="http://cars.com">Submit</a></botton>
+            <botton><a href="http://cars.com" class="botton">Submit</a></botton>
             </div>
-
-            <br>
         </form>
 
      </p>
     </main>
     <footer>
-        &copy;copyright2020
+        &copy;copyright2022
     </footer>   
     </body>
 </html>
