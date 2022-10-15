@@ -9,6 +9,7 @@
     label {display: block; margin: 0.5rem 0;}
     input,textarea,select {margin: 10px 0 0 0;width: 300px;min-height: 2em;}
     .AIC{font-style: italic; color: blue;}
+    footer{background-color:rgb(56, 57, 58);}
 </style>
 </head>
 <body>
@@ -20,7 +21,13 @@
         <Label for="FIRST NAME">FIRST NAME:<Input id="FIRST NAME" type="text"></Input></Label>
         <Label for="LAST NAME">LAST NAME:<Input id="LAST NAME" type="text"></Input></Label>
         <Label for="NAME TO BE CALLED">NAME TO BE CALLED:<Input id="NAME TO BE CALLED" type="text"></Input></Label>
-        <Label for="TITLE">TITLE:<Input id="TITLE" type="text"></Input></Label>
+        <Label for="TITLE">TITLE:<select id="TITLE" name="TITLE"><option value="">(select one)</option>
+            <option value="">MR</option>
+            <option value="">MRS</option>
+            <option value="">MISS</option>
+            <option value="">MS</option>
+            <option value="">DR</option>
+        </select></Label>
         <Label for="EMAIL">EMAIL:<Input id="EMAIL" type="text"></Input></Label>
         <Label for="ADDRESS">ADDRESS:<Input id="ADDRESS" type="address"></Input></Label>
         <Label for="PHONE NUMBER">PHONE NUMBER:<Input id="PHONE NUMBER" type="text"></Input></Label>
@@ -36,5 +43,12 @@
 
     </fieldset>
 </form>
+<footer>
+    <h1>Contact Us On:</h1>
+    <h4>Facebook</h4>
+    <h4>Instargram page at AIC Nig</h4>
+    <h4>Twitter at AIC Nig</h4>
+    <h4>www.Alas International College.com</h4>
+</footer>
 </body>
 </html>
