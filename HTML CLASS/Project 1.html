@@ -13,12 +13,13 @@
             align-items: center;
             width: 1570px;
             height: 40px;
+            position: relative;
             }
             .squareB1{background-color: rgb(253, 248, 253);
             height: 30px;
             width: 170px;
             position: relative;
-            top: 90px;
+            top: 70px;
             right: -10px;
             }
             .circle{height: 40px;
@@ -27,7 +28,7 @@
             border-radius: 70%;
             position: relative;
             left: 10px;
-            bottom: 5px;
+            bottom: 0px;
             }
             body{background-color: rgb(215, 219, 222);}
             h1{font-size: 12px;
@@ -35,14 +36,16 @@
             padding-left: 50px;
             color: white;
             }
-            .triangle{width: 0px;
+            .triangle-up{width: 0px;
                 height: 0px;
-                padding-top: 20px;
+                padding-top: 50px;
                 border-left: 20px solid transparent;
-                border-right: 10px solid rgb(8, 99, 156);
+                border-right: 20px solid transparent;
+                border-bottom: 5px solid rgb(8, 99, 156);
                 margin-left: 70px;
                 position: relative;
                 left: 30px;
+                top: -15px;
                 }
                 .squareB{ background-color: rgb(8, 99, 156);
                     width: 190px;
@@ -51,6 +54,7 @@
                     margin-bottom: 150px;
                     position: relative;
                     left: 30px;
+                    top: -31px;
                 }
                 .squareC{background-color: white;
                     width: 190px;
@@ -72,7 +76,34 @@
                     bottom: 65px;
                     left: 30px;
                 } 
-                .inbox{text-align: center; color: pu;}   
+                .squareF{background-color: white;
+                    height: 5opx;
+                    width: 190px;
+                    position: relative;
+                    left: 100000px;
+                }
+                .inbox{text-align: center; color: purple;
+                    position: relative;
+                    top: 5px;
+                } 
+                .date{color: white;
+                    margin-bottom: -30px;
+                    margin-left: 10px;
+                    position: relative;
+                    top: 10px;
+                } 
+                .notice1{color: white;
+                margin-bottom: -15px;
+                text-align: end;
+                } 
+                .notice2{color: white;
+                margin-bottom: -15px;
+                text-align: end;
+                } 
+                .notice3{color: white;
+                margin-bottom: -50px;
+                text-align: end;
+                } 
         </style>
     </head>
     <body> 
@@ -84,13 +115,25 @@
                 </section>
             </div>
             <div class="square1"></div>
-            <div class="triangle"></div>
+            <div class="triangle-up"></div>
             <div class="squareB">
+                <p class="date">15 April</p>
+                <p class="notice1">You have</p>
+                   <p class="notice2">2 new documents</p>
+                   <p class="notice3">1 important</p> 
+                </p>
                 <div class="squareB1"><p class="inbox">View Inbox</p></div>
                 <div class="circle"></div>
             </div>
             <div class="squareC"></div>
             <div class="squareD"></div>
             <div class="squareE"></div>
+            <div>
+            <div class="squareF"></div>
+            <div class="squareG"></div>
+            <div class="squareH"></div>
+            <div class="squareI"></div>
+            <div class="squareJ"></div>
+            </div>
     </body>
     </html> 
