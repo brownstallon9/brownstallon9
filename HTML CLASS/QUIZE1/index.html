@@ -9,25 +9,26 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="container1">
+        <div class="container">
             <a class="logo" href="#">Remember<span>That</span></a>
             <img id="mobile-cta" class="mobile-menu" src="images/menu.png" alt="Open navigation" width="50px" height="50px">
             <nav>
+                <img id="mobile-cta" class="mobile-menu-exist" src="Images/cancel.png" alt="Exist">
                 <ul class="primary-nav">
-                    <li class="current"><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Pricing</a></li>
+                    <li class="current"><a href="#" class="nav-nav">Home</a></li>
+                    <li><a href="#" class="nav-nav">Features</a></li>
+                    <li><a href="#" class="nav-nav">Pricing</a></li>
                 </ul>
 
                 <ul class="secondary-nav">
-                    <li><a href="#">Contact</a></li>
-                    <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+                    <li><a href="#" class="nav-nav">Contact</a></li>
+                    <li class="go-premium-cta"><a href="#" class="nav-nav">Go Premium</a></li>
                 </ul>
             </nav>
         </div>
     </div>
     <section class="hero">
-        <div class="container2">
+        <div class="container">
             <div class="left-col">
                 <p class="subhead">It's Nitty &amp; Gritty</p>
                 <h1>A Task App That Doesn't Stink</h1>
@@ -44,7 +45,7 @@
     </section>
 
     <section class="features-section">
-        <div class="container3">
+        <div class="container">
             <ul class="features-list">
                 <li>Unlimited Tasks</li>
                 <li>SMS Task Reminder</li>
@@ -54,35 +55,35 @@
                 <li>Other awesome features</li>
             </ul>
 
-            <img src="images/holding-phone.jpg" alt="Man Holding Phone">
+            <img src="images/holding-phone.jpg" alt="Man Holding Phone" id="Phone">
         </div>
     </section>
 
     <section class="testimonial-section">
-        <ul>
-            <li>
-                <img src="Images/person1.png" alt="person">
+        <ul class="testimonial">
+            <li class="nothing">
+                <img src="Images/person.png" alt="person" class="testimonial-img">
                 <blockquote>Nothing inside</blockquote>
                 <cite>-- Jane Doe</cite>
             </li>
         </ul>
         <ul>
-            <li>
-                <img src="Images/person.png" alt="person">
+            <li class="nothing">
+                <img src="Images/person.png" alt="person" class="testimonial-img">
                 <blockquote>Nothing inside</blockquote>
                 <cite>-- Jane Doe</cite>
             </li>
         </ul>
         <ul>
-            <li>
-                <img src="Images/person.png" alt="person">
+            <li class="nothing">
+                <img src="Images/person.png" alt="person" class="testimonial-img">
                 <blockquote>Nothing inside</blockquote>
                 <cite>-- Jane Doe</cite>
             </li>
         </ul>
     </section>
     <section class="contact-section">
-        <div class="container4">
+        <div class="container">
             <div class="contact-left">
                 <h1>Contact</h1>
                 <form action="">
@@ -99,5 +100,19 @@
             </div>
         </div>
     </section>
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav');
+        mobileBtnExist = document.getElementById('mobile-exist');
+
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
 </body>
 </html>
