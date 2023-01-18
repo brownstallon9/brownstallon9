@@ -10,12 +10,6 @@ body{
 .navbar{
     background: white;
 }
-.logo{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    font-size: 1.2em;
-}
 span{
     color: var(--primary-color)
 }
