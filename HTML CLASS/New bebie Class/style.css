@@ -1,0 +1,14 @@
+body{
+    overflow-x: hidden;
+    font-family: montserrat sans-serif;
+    color: #616971;
+}
+.top-bar{
+    background: #7aaec4;
+}
+@media (max-width: 1199.98px) {
+    
+}
+@media (max-width: 767.98px) {
+    
+}
