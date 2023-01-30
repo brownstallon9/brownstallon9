@@ -13,6 +13,48 @@ body{
     text-decoration: none;
     font-size: 1.1rem;
 }
+.navbar-brand img{
+    height: 3rem;
+}
+.navbar{
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+    z-index: 1;
+}
+.nav-list{
+    padding: 1.5rem;
+}
+.nav-link{
+    color: #5b5555 !important;
+}
+.nav-link.active,
+.nav-link:hover{
+    color: #4981b3 !important;
+}
+.fixed{
+    background-image: url(../logo.jpg);
+    position: fixed;
+}
+.fixed-background{
+    padding: 10rem 0;
+}
+footer{
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
+}
+footer p, footer a, .socket a{
+    color: white;
+    text-decoration: none;
+}
+ul.social{
+    list-style-type: none;
+}
+.socket{
+    background-color: #222222;
+    border-top: .1rem solid #4981b3;
+}
 @media (max-width: 1199.98px) {
     
 }
