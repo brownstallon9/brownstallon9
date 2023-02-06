@@ -1,0 +1,9 @@
+h1,p{text-align: center;}
+    h2{text-align: center; color: red; font-style: italic;}
+    fieldset{text-align: center; width: 340px; margin-left: 590px;}
+    body{background-color: aliceblue;}
+    label {display: block; margin: 0.5rem 0;}
+    input,textarea,select {margin: 10px 0 0 0;width: 300px;min-height: 2em;}
+    .AIC{font-style: italic; color: blue;}
+    footer{background-color:rgb(56, 57, 58);}
+    .botton{font-size: 35px; text-align: center;}

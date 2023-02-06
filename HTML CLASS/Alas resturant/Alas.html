@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alas</title>
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="navbar">
+    <nav class="navbar bg-light navbar-light navbar-expand-lg">
         <div class="container">
-            <a href="#" class="logo">Alas <strong>Autos</strong></a>
-            <nav>
-                <ul class="primary-nav">
-                    <li><a href="#" class="primary-list">Home</a></li>
-                    <li><a href="#" class="primary-list">About Us</a></li>
-                    <li><a href="#" class="primary-list">Contact</a></li>
-                    <li><a href="#" class="primary-list">Map</a></li>
-                </ul>
-                <ul class="secondary-nav">
-                    <li><a href="" class="secondary-list"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
-                    <li><a href="" class="secondary-list">Log In</a></li>
-                </ul>
-            </nav>
+            <a href="#" class="navbar-brand">Alas <strong>Global</strong></a>
+            <div class="navbar-toggler"><span class="navbar-toggler-icon"></span></div>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav ml-auto">
+                    <li class="nav-list"><a href="#" class="nav-links active">Home</a></li>
+                    <li class="nav-list"><a href="#" class="nav-links">About</a></li>
+                    <li class="nav-list"><a href="#" class="nav-links">Servics</a></li>
+                    <li class="nav-list"><a href="#" class="nav-links">Contact</a></li>
+                </div>
+            </div>
         </div>
-    </div>
+    </nav>
+    <h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
 </body>
 </html>
